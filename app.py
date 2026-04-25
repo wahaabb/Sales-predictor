@@ -14,7 +14,7 @@ from sklearn.metrics import r2_score, mean_absolute_error
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("D:/NAVTTC/salesapp/Marketing_Data.csv")
+    return pd.read_csv("Marketing_Data.csv")
 
 data = load_data()
 
